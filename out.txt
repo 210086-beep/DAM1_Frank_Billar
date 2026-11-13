@@ -1,0 +1,57 @@
+LibreSprite 1.3 | A pixel art program
+Copyright (C) 2001-2016 David Capello, 2016-2024 LibreSprite contributors
+
+Usage:
+  libresprite.exe [OPTIONS] [FILES]...
+
+Options:
+      --palette <filename>     Use a specific palette by default
+      --shell                  Start an interactive console to execute scripts
+  -b, --batch                  Do not start the UI
+      --save-as <filename>     Save the last given document with other format
+      --scale <factor>         Resize all previous opened documents
+      --shrink-to width,height Shrink each sprite if it is
+                               larger than width or height
+      --data <filename.json>   File to store the sprite sheet metadata
+      --format <format>        Format to export the data file
+                               (json-hash, json-array)
+      --sheet <filename.png>   Image file to save the texture
+      --sheet-width <pixels>   Sprite sheet width
+      --sheet-height <pixels>  Sprite sheet height
+      --sheet-type <type>      Algorithm to create the sprite sheet:
+                                 horizontal
+                                 vertical
+                                 rows
+                                 columns
+                                 packed
+      --sheet-pack             Same as --sheet-type packed
+      --split-layers           Import each layer of the next given sprite as
+                               a separated image in the sheet
+      --layer <name> or
+      --import-layer <name>    Include just the given layer in the sheet
+      --all-layers             Make all layers visible
+                               By default hidden layers will be ignored
+      --frame-tag <name>       Include tagged frames in the sheet
+      --frame-range from,to    Only export frames in the [from,to] range
+      --ignore-empty           Do not export empty frames/cels
+      --border-padding <value> Add padding on the texture borders
+      --shape-padding <value>  Add padding between frames
+      --inner-padding <value>  Add padding inside each frame
+      --trim                   Trim all images before exporting
+      --crop x,y,width,height  Crop all the images to the given rectangle
+      --filename-format <fmt>  Special format to generate filenames
+      --script <filename>      Execute a specific script
+      --list-layers            List layers of the next given sprite
+                               or include layers in JSON data
+      --list-tags              List tags of the next given sprite sprite
+                               or include frame tags in JSON data
+  -v, --verbose                Explain what is being done
+      --debug                  Extreme verbose mode and
+                               copy log to desktop
+  -?, --help                   Display this help and exits
+      --version                Output version information and exit
+
+Find more information in LibreSprite web site: https://github.com/LibreSprite/LibreSprite/
+
+Loading file "C:\Users\AlumnoFP\AppData\Roaming\LibreSprite\palettes\.\default.ase" (ase)
+Using loader for format ase,aseprite
